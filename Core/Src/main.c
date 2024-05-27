@@ -69,7 +69,7 @@ uint16_t btnBottom = GPIO_PIN_9;
 char txBuffer[20];
 volatile uint16_t txCounter = 0;
 char testMsg[16];
-uint8_t studentNumber[] = "&_23540850_*\n";
+uint8_t studentNumber[] = "&_TANDO123_*\n";
 
 bounceState btn1bounce;
 bounceState btn2bounce;
