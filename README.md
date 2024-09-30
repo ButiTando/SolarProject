@@ -36,20 +36,20 @@ This system is designed to measure the performance of a photovoltaic (PV) module
 
 ### Hardware Requirements
 
-- 9V to 12V power supply or battery
-- Photovoltaic (PV) panel
-- Adjustable load (manual or automated)
-- LEDs for visual feedback
-- LCD display
-- Temperature sensors (ambient and panel)
-- Photodiode for light intensity measurement
-- UART interface for communication
+- 9V to 12V power supply or battery.
+- 5V and 3.3V voltage regulators (5V: LM235 and 3.3V: MCP1700)
+- Photovoltaic (PV) panel.
+- TIP31C power transistor (Any power transistor will work. The transistor is used in an active load configuration to automatically find the maximum power point(MPP)).
+- LEDs for visual feedback.
+- 16x2 LCD display.
+- Temperature sensors (Digital temperature sensoror: LMT01 and Analog temperature sensor: LM235).
+- Photodiode for light intensity measurement (SFH203).
+- STM32F411 Nucleo development board.
 
 ### Software Requirements
 
-- Embedded C/C++ development environment
-- UART communication driver
-- Real-time clock (RTC) driver
+- Embedded C/C++ development environment (STM32CubeIDE or Visual studio code with PlatformIO extension)
+- UART communication software ( Termite on window and Minicom on Linux)
 
 ### Installation
 
@@ -120,3 +120,4 @@ The system has multiple LCD display modes, which update in real-time. In Mode 4,
 - If LEDs do not behave as expected, check power supply connections.
 - For UART communication issues, verify the baud rate and data format.
 - If calibration seems inaccurate, ensure the panel is clean and try recalibrating.
+- Ensure solder joints are clean.
