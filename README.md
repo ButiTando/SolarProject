@@ -6,9 +6,7 @@
 
 This system is designed to measure the performance of a photovoltaic (PV) module, including various environmental parameters and module efficiency. The device uses a UART interface for communication and allows both manual and automated measurement sequences, providing real-time feedback via LEDs and an LCD display. It supports system calibration and cleanness indicators based on the efficiency of the PV panel.
 
-![PV monitoring system](PVMonitor.png)
-
-<img src="PVMonitor.png" alt="PV monitoring system" style="transform: rotate(90deg);">
+<img src="PVMonitor.png" alt="PV monitoring system" style="transform: rotate(90deg); height: 500px; width: 700px;">
 
 
 ## Features
