@@ -8,7 +8,7 @@ This system is designed to measure the performance of a photovoltaic (PV) module
 
 <img src="PVMonitor.png" alt="PV monitoring system" style="transform: rotate(90deg); height: 500px; width: auto;">
 
-See system in action here: ![PV Monitoring system video](https://youtu.be/eyisl1Plvt0)
+See system in action here: [PV Monitoring system video](https://youtu.be/eyisl1Plvt0)
 
 
 ## Features
