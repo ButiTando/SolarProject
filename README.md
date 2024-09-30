@@ -1,6 +1,6 @@
 # Photovoltaic System Measuring Device 
 
-## (Note: This is a course project and most of feature and spicification are derived from the projects specification._
+## (Note: This is a course project and most of the features and spicifications are derived from the projects specification.)
 
 ## Overview
 
