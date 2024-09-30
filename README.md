@@ -119,7 +119,7 @@ See system in action here: [PV Monitoring system video](https://youtu.be/eyisl1P
 The system has multiple LCD display modes, which update in real-time.
 - In Mode 1, the LCD displays real time voltage, current, maxmum power measured, and efficiency.
 - In Mode 2, the LCD displays ambient temperature, solar panel temperature, and the light intensity.
-- in Mode 3, the LCD displays the current date and time.
+- In Mode 3, the LCD displays the current date and time.
 - In Mode 4, the LCD cycles through display options every 2 seconds.
 
 ### Maintenance
@@ -133,4 +133,4 @@ The system has multiple LCD display modes, which update in real-time.
 - If LEDs do not behave as expected, check power supply connections.
 - For UART communication issues, verify the baud rate and data format.
 - If calibration seems inaccurate, ensure the panel is clean and try recalibrating.
-- Ensure solder joints are clean.
+- If LCD does not display data, ensure that it is power with the correct voltage level and that data pins 7-10 are well soldered.
