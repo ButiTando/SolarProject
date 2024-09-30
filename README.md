@@ -112,11 +112,15 @@ See system in action here: [PV Monitoring system video](https://youtu.be/eyisl1P
 - **EN**: Start/stop environmental measurement.
 - **CA**: Start calibration sequence.
 - **UART Format**:
-  - Command format: &_<Command>_*\n. Example of enviroment command: &_EN_*\n.
+  - Command format: &_\<Command\>_*\n. Example of enviroment command: &_EN_*\n.
 
 ### Display Modes
 
-The system has multiple LCD display modes, which update in real-time. In Mode 4, the LCD cycles through display options every 2 seconds.
+The system has multiple LCD display modes, which update in real-time.
+- In Mode 1, the LCD displays real time voltage, current, maxmum power measured, and efficiency.
+- In Mode 2, the LCD displays ambient temperature, solar panel temperature, and the light intensity.
+- in Mode 3, the LCD displays the current date and time.
+- In Mode 4, the LCD cycles through display options every 2 seconds.
 
 ### Maintenance
 
