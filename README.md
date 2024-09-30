@@ -8,6 +8,9 @@ This system is designed to measure the performance of a photovoltaic (PV) module
 
 ![PV monitoring system](PVMonitor.png)
 
+<img src="PVMonitor.png" alt="PV monitoring system" style="transform: rotate(90deg);">
+
+
 ## Features
 
 - **Power Supply**: Regulated 5V and 3.3V supplies are generated from a 9-12V input. LED D6 indicates the presence of the 5V supply.
