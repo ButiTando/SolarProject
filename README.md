@@ -45,6 +45,7 @@ This system is designed to measure the performance of a photovoltaic (PV) module
 - Temperature sensors (Digital temperature sensoror: LMT01 and Analog temperature sensor: LM235).
 - Photodiode for light intensity measurement (SFH203).
 - STM32F411 Nucleo development board.
+- Tactile switches.
 
 ### Software Requirements
 
