@@ -6,6 +6,8 @@
 
 This system is designed to measure the performance of a photovoltaic (PV) module, including various environmental parameters and module efficiency. The device uses a UART interface for communication and allows both manual and automated measurement sequences, providing real-time feedback via LEDs and an LCD display. It supports system calibration and cleanness indicators based on the efficiency of the PV panel.
 
+[PV monitoring system](https://github.com/ButiTando/SolarProject/blob/main/PVMonitor.HEIC)
+
 ## Features
 
 - **Power Supply**: Regulated 5V and 3.3V supplies are generated from a 9-12V input. LED D6 indicates the presence of the 5V supply.
