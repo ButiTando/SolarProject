@@ -133,4 +133,4 @@ The system has multiple LCD display modes, which update in real-time.
 - If LEDs do not behave as expected, check power supply connections.
 - For UART communication issues, verify the baud rate and data format.
 - If calibration seems inaccurate, ensure the panel is clean and try recalibrating.
-- If LCD does not display data, ensure that it is power with the correct voltage level and that data pins 7-10 are well soldered.
+- If LCD does not display data, ensure that it is powered with the correct voltage level and that data pins 7-10 are well soldered.
