@@ -1,4 +1,6 @@
-# Photovoltaic System Measuring Device
+# Photovoltaic System Measuring Device 
+
+## (Note: This is a course project and most of feature and spicification are derived from the projects specification._
 
 ## Overview
 
@@ -56,7 +58,7 @@ This system is designed to measure the performance of a photovoltaic (PV) module
 
 1. Connect the power supply and the PV module to the system as per the hardware design.
 2. Ensure all sensors (temperature, light intensity) and LEDs are properly connected.
-3. Upload the provided firmware to the microcontroller using your preferred programming interface.
+3. Upload the provided firmware to the microcontroller using USB connector on the Nucleo board.
 4. Initialize the UART communication at a baud rate of 115200, 8 data bits, 1 odd parity bit, and 1 stop bit.
 
 ### Usage
@@ -104,7 +106,8 @@ This system is designed to measure the performance of a photovoltaic (PV) module
 - **SP**: Start/stop PV module measurement.
 - **EN**: Start/stop environmental measurement.
 - **CA**: Start calibration sequence.
-- **UART Format**: Data is transmitted and received as per section 4.10.1 of the specification. Ensure the correct format is used when sending commands to the device.
+- **UART Format**:
+  - Command format: &_<Command>_*\n. Example of enviroment command: &_EN_*\n.
 
 ### Display Modes
 
