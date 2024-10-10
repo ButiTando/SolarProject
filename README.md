@@ -1,7 +1,5 @@
 # Photovoltaic System Measuring Device 
 
-## (Note: This is a course project and most of the features and spicifications are derived from the project's specification.)
-
 ## Overview
 
 This system is designed to measure the performance of a photovoltaic (PV) module, including various environmental parameters and module efficiency. The device uses a UART interface for communication and allows both manual and automated measurement sequences, providing real-time feedback via LEDs and an LCD display. It supports system calibration and cleanness indicators based on the efficiency of the PV panel.
